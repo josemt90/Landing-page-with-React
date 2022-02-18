@@ -11,7 +11,11 @@ const Card = (props) => {
 	return (
 		<div className="card" style={cardStyles}>
 			<div>
-				<img src={props.imageUrl} className="card-img-top" alt="..." />
+				<img
+					src={props.imageUrl}
+					className=" image image-fluid"
+					alt="..."
+				/>
 			</div>
 			<div className="card-body">
 				<h5 className="card-title text-center">{props.title}</h5>
